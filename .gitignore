@@ -1,0 +1,84 @@
+# ============================================================
+# .gitignore untuk Proyek Java NetBeans - AtmaMart
+# ============================================================
+
+# ----- Build Output -----
+# Folder hasil kompilasi, tidak perlu di-commit
+build/
+dist/
+*.class
+*.jar
+*.war
+*.ear
+
+# ----- NetBeans IDE - File Pribadi -----
+# File konfigurasi lokal yang berbeda di setiap mesin
+nbproject/private/
+**/nbproject/private/
+nbproject/Makefile-*.mk
+nbproject/*.mk
+nbactions.xml
+nb-configuration.xml
+
+# ----- NetBeans - File Generate Otomatis -----
+# File yang di-generate otomatis oleh IDE
+nbproject/build-impl.xml
+nbproject/genfiles.properties
+**/nbproject/build-impl.xml
+**/nbproject/genfiles.properties
+
+# ----- File Konfigurasi Rahasia / Sensitif -----
+# Jika ada file konfigurasi database atau environment
+*.env
+*.properties.local
+config.properties
+secret.properties
+database.properties
+
+# ----- Log Files -----
+*.log
+logs/
+
+# ----- File Sistem Operasi -----
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux
+*~
+
+# ----- File Editor / IDE Lain -----
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# Eclipse
+.project
+.classpath
+.settings/
+bin/
+
+# VS Code
+.vscode/
+
+# ----- Temporary Files -----
+*.tmp
+*.bak
+*.swp
+*.swo
+.~lock.*
+
+# ----- Maven / Gradle (jika digunakan di masa depan) -----
+target/
+.gradle/
+gradle/wrapper/gradle-wrapper.jar
